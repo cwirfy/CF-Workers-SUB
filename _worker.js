@@ -12,8 +12,9 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
+hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=40071&sni=www.bing.com#hy2-ip-172-26-7-242
+vless://3b198690-53ee-4a5f-8c14-819131ec75aa@k5.twirfy.cc:443?encryption=none&security=reality&type=tcp&sni=update.microsoft&fp=chrome&pbk=5AVOVpAdVGv-QFDwujM7Ye4L0uxLe4zQHNp3TlQVn0g&flow=xtls-rprx-vision#3b198690-vless_reality_vision
+vless://b14fedce-cff2-41e3-f05a-ab3fd43e6b09@kk1.twirfy.cc:57206?type=tcp&security=reality&sni=www.yahoo.com&pbk=l4Vftuo0MF1QzoX1L-TtAx2iXZVw0Xglxkqk4GIp3m8&flow=xtls-rprx-vision&sid=dc75029d&fp=chrome#KK1-%E7%94%B5%E4%BF%A1%E8%81%94%E9%80%9A-Nuts
 `
 
 let urls = [];
