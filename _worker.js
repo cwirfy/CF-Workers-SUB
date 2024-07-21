@@ -12,8 +12,8 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-韩国-Hysteria2-Changed?
-vless://3b198690-53ee-4a5f-8c14-819131ec75aa@k5.twirfy.cc:443?encryption=none&security=reality&type=tcp&sni=update.microsoft&fp=chrome&pbk=5AVOVpAdVGv-QFDwujM7Ye4L0uxLe4zQHNp3TlQVn0g&flow=xtls-rprx-vision#移动-联通-日本-Reality-Changed?
+hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-韩国-Hysteria2--Hello-Monday!
+vless://3b198690-53ee-4a5f-8c14-819131ec75aa@k5.twirfy.cc:443?encryption=none&security=reality&type=tcp&sni=update.microsoft&fp=chrome&pbk=5AVOVpAdVGv-QFDwujM7Ye4L0uxLe4zQHNp3TlQVn0g&flow=xtls-rprx-vision#移动-联通-日本-Reality-Hello-Monday!
 vless://c622546a-c0be-4ea3-a0e5-e11805b159ec@kk1.twirfy.cc:24923?type=tcp&security=reality&sni=www.yahoo.com&pbk=ZwDWZh30ymrcQ0_pxEcbrlHxfsuXTD5lRpgIpcltZnU&flow=xtls-rprx-vision&sid=cb47a1b0&fp=chrome#%E7%94%B5%E4%BF%A1-%E7%BE%8E%E5%9B%BD-Reality
 `
 
