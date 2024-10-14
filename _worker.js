@@ -83,7 +83,7 @@ export default {
 				status: 200 ,
 				headers: {
 					'Content-Type': 'text/html; charset=UTF-8',
-				}
+				},
 			});
 		} else {
 			await sendMessage(`#获取订阅 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgentHeader}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
@@ -126,7 +126,7 @@ export default {
 						headers: {
 							'Accept': 'text/html,application/xhtml+xml,application/xml;',
 							'User-Agent': `${追加UA} cmliu/CF-Workers-SUB ${userAgentHeader}`
-						},
+						}
 						signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
 					}).then(response => {
 						if (response.ok) {
