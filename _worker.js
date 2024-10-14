@@ -12,12 +12,12 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-Vless://3b198690-53ee-4a5f-8c14-819131ec75aa@k5.twirfy.cc:443?encryption=none&security=reality&type=tcp&sni=update.microsoft&fp=chrome&pbk=5AVOVpAdVGv-QFDwujM7Ye4L0uxLe4zQHNp3TlQVn0g&flow=xtls-rprx-vision#移动/联通-Reality-日本
-Vless://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:27018?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=_vL2q9vUEdxzBGy-MG2G6MhnqBbUj4o2xAdY9Y3XwCk&sid=aaa623c2&type=tcp&headerType=none#移动/联通-Reality-韩国
-Tuic://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc:c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:32424?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#电信-Tuic-v5-韩国
-Hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-Hysteria2-韩国
-Vless://c622546a-c0be-4ea3-a0e5-e11805b159ec@kk1.twirfy.cc:24923?type=tcp&security=reality&sni=www.yahoo.com&pbk=ZwDWZh30ymrcQ0_pxEcbrlHxfsuXTD5lRpgIpcltZnU&flow=xtls-rprx-vision&sid=cb47a1b0&fp=chrome#%E7%94%B5%E4%BF%A1-Reality-%E7%BE%8E%E5%9B%BD
-Vmess://eyJhZGQiOiIxMy4xMjUuOTQuMjM4IiwiYWlkIjoiMCIsImhvc3QiOiJ3d3cuYmluZy5jb20iLCJpZCI6ImM5YzJhN2JiLTNhYmYtNGRhOC05MzJlLWZhMmU0NzFjOTFiYyIsIm5ldCI6IndzIiwicGF0aCI6ImM5YzJhN2JiLTNhYmYtNGRhOC05MzJlLWZhMmU0NzFjOTFiYy12bSIsInBvcnQiOiIyMDUyIiwicHMiOiJ2bS13cy1pcC0xNzItMjYtNy0yNDIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0K
+vless://3b198690-53ee-4a5f-8c14-819131ec75aa@k5.twirfy.cc:443?encryption=none&security=reality&type=tcp&sni=update.microsoft&fp=chrome&pbk=5AVOVpAdVGv-QFDwujM7Ye4L0uxLe4zQHNp3TlQVn0g&flow=xtls-rprx-vision#移动/联通-Reality-日本
+vless://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:27018?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=_vL2q9vUEdxzBGy-MG2G6MhnqBbUj4o2xAdY9Y3XwCk&sid=aaa623c2&type=tcp&headerType=none#移动/联通-Reality-韩国
+tuic://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc:c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:32424?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#电信-Tuic-v5-韩国
+hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-Hysteria2-韩国
+vless://c622546a-c0be-4ea3-a0e5-e11805b159ec@kk1.twirfy.cc:24923?type=tcp&security=reality&sni=www.yahoo.com&pbk=ZwDWZh30ymrcQ0_pxEcbrlHxfsuXTD5lRpgIpcltZnU&flow=xtls-rprx-vision&sid=cb47a1b0&fp=chrome#%E7%94%B5%E4%BF%A1-Reality-%E7%BE%8E%E5%9B%BD
+vmess://eyJhZGQiOiIxMy4xMjUuOTQuMjM4IiwiYWlkIjoiMCIsImhvc3QiOiJ3d3cuYmluZy5jb20iLCJpZCI6ImM5YzJhN2JiLTNhYmYtNGRhOC05MzJlLWZhMmU0NzFjOTFiYyIsIm5ldCI6IndzIiwicGF0aCI6ImM5YzJhN2JiLTNhYmYtNGRhOC05MzJlLWZhMmU0NzFjOTFiYy12bSIsInBvcnQiOiIyMDUyIiwicHMiOiJ2bS13cy1pcC0xNzItMjYtNy0yNDIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0K
 `
 
 let urls = [];
