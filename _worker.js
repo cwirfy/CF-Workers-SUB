@@ -126,7 +126,7 @@ export default {
 						headers: {
 							'Accept': 'text/html,application/xhtml+xml,application/xml;',
 							'User-Agent': `${追加UA} cmliu/CF-Workers-SUB ${userAgentHeader}`
-						}
+						},
 						signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
 					}).then(response => {
 						if (response.ok) {
@@ -214,7 +214,7 @@ export default {
 						"Profile-Update-Interval": `${SUBUpdateTime}`,
 						"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 
-					},
+					}
 				});
 			} catch (error) {
 				return new Response(base64Data ,{
