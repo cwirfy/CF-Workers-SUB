@@ -83,7 +83,7 @@ export default {
 				status: 200 ,
 				headers: {
 					'Content-Type': 'text/html; charset=UTF-8',
-				},
+				}
 			});
 		} else {
 			await sendMessage(`#获取订阅 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgentHeader}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
