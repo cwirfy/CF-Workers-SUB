@@ -12,10 +12,10 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=6t7qut7h2AYhjsYQLQei2Mb9ZtP2KSYXV9sDCqyBAR0&sid=9b2a39f2&type=tcp&headerType=none#vl-reality-ip-172-26-7-185
-tuic://060bdc6e-4dca-45f3-97ef-db74917e807f:060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#tu5-ip-172-26-7-185
+vless://060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=6t7qut7h2AYhjsYQLQei2Mb9ZtP2KSYXV9sDCqyBAR0&sid=9b2a39f2&type=tcp&headerType=none#移动/联通-Reality-日本
 vless://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:27018?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=_vL2q9vUEdxzBGy-MG2G6MhnqBbUj4o2xAdY9Y3XwCk&sid=aaa623c2&type=tcp&headerType=none#移动/联通-Reality-韩国
-hysteria2://060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48754?&alpn=h3&insecure=1&mport=48754&sni=www.bing.com#移动-联通-Hysteria2-日本
+hysteria2://060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48754?&alpn=h3&insecure=1&mport=48754&sni=www.bing.com#移动/联通-Hysteria2-日本
+tuic://060bdc6e-4dca-45f3-97ef-db74917e807f:060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#电信-Tuic-v5-日本
 tuic://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc:c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:32424?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#电信-Tuic-v5-韩国
 hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-Hysteria2-韩国
 `
