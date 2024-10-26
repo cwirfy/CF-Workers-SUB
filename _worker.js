@@ -12,6 +12,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
+vless://060bdc6e-4dca-45f3-97ef-db74917e807f@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=6t7qut7h2AYhjsYQLQei2Mb9ZtP2KSYXV9sDCqyBAR0&sid=9b2a39f2&type=tcp&headerType=none#移动/联通-Reality-日本
 `
 
 let urls = [];
