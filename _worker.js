@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 //节点链接 + 订阅链接
 let MainData = `
 vless://3b198690-53ee-4a5f-8c14-819131ec75aa@54.248.142.77:443?encryption=none&security=reality&type=tcp&sni=update.microsoft&fp=chrome&pbk=5AVOVpAdVGv-QFDwujM7Ye4L0uxLe4zQHNp3TlQVn0g&flow=xtls-rprx-vision#移动/联通-Reality-日本(旧）
-vless://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k5C7N6ATRJGpJPzK5ca5v833gVvtpSG72tIuoZhFEH8&sid=51a3e57a&type=tcp&headerType=none#移动/25年3月新-联通-Reality-日本
+vless://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k5C7N6ATRJGpJPzK5ca5v833gVvtpSG72tIuoZhFEH8&sid=51a3e57a&type=tcp&headerType=none#25年3月新-移动/联通-Reality-日本
 hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-Hysteria2-韩国
 tuic://7f951532-dd6c-463f-99f0-d80bf762d37c:7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#25年3月新-电信-Tuic-v5-日本
 `
