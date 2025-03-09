@@ -16,6 +16,12 @@ vless://3b198690-53ee-4a5f-8c14-819131ec75aa@54.248.142.77:443?encryption=none&s
 vless://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k5C7N6ATRJGpJPzK5ca5v833gVvtpSG72tIuoZhFEH8&sid=51a3e57a&type=tcp&headerType=none#25年3月新-移动/联通-Reality-日本
 hysteria2://c9c2a7bb-3abf-4da8-932e-fa2e471c91bc@13.125.94.238:41173?&alpn=h3&insecure=1&mport=41173&sni=www.bing.com#电信-Hysteria2-韩国
 tuic://7f951532-dd6c-463f-99f0-d80bf762d37c:7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#25年3月新-电信-Tuic-v5-日本
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLQVEveTN1b3Z6Y1U3SHdEcTNQdUpMT0JOKzU3dUVGSUZZc2ozc3lZWXZ3PUBzemQtdXN3LmFqbW9tLm9yZzo0NDM?obfs=httpupgrade&path=/cvx8su1v#USW_ss_httpu-cvs8su1v
+vmess://YXV0bzoxNmIzM2VhOC05NDI4LTQyZTYtYmM5ZC1kMDRkYWIxNDA5ODNAc3pkLXVzdy5ham1vbS5vcmc6NDAyMTc?remarks=USW_vmess_ws-t6xjlrel&path=/t6xjlrel&obfs=websocket&alterId=0
+vless://YXV0bzoyMzFjYzVhYi0zMmE1LTRkNmItYTMwMy1lMjBmNGY3ODVjMmZAc3pkLXVzdy5ham1vbS5vcmc6NDE1MjI?remarks=USW_vless_reality_vision-uc82eo7l&obfs=none&tls=1&peer=itunes.apple.com&xtls=2&pbk=fM3lkQcWf1XS3YATQJMiWAOsrrtaW_AIVZPuLeDLxx4&sid=7368
+vmess://YXV0bzphMDQ0ODk2Mi03YTc3LTRiNDMtYTc3Mi1hMzNhNWRiOTM0YTlAc3pkLWpwLmFqbW9tLm9yZzozMTYwNA?remarks=JP-vmess-ws-zkbkadel&path=/a0448962&obfs=websocket&alterId=0
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNV2w1M0hXZjVKb2hzQzdOT2w0aFBqN05mYWhib05oRnlSUnNFV1VoeU9RPUBzemQtanAuYWptb20ub3JnOjQyMTE1?obfs=httpupgrade&path=/doviumws#JP_ss_httpu-doviumws
+vless://YXV0bzplNGNlZTEzZS1kYjAxLTQwYmYtOThmNS1hNmM0OGI1YWMyOThAc3pkLWpwLmFqbW9tLm9yZzoyNjQ0NA?remarks=JP_vless_reality_vision-jcbuyhtb&obfs=none&tls=1&peer=www.yahoo.com&xtls=2&pbk=UBQMCGx7voJyqLK-VCmJBr6-qEZoYe2rzcDZT6DCaHw&sid=bf
 `
 
 let urls = [];
