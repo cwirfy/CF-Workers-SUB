@@ -12,9 +12,12 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-tuic://7f951532-dd6c-463f-99f0-d80bf762d37c:7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#日本-Tuic5
-vless://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k5C7N6ATRJGpJPzK5ca5v833gVvtpSG72tIuoZhFEH8&sid=51a3e57a&type=tcp&headerType=none#日本-Reality
-hysteria2://394200f8-e6b2-46d9-9c72-d820e01e42a5@13.125.94.238:40071?&alpn=h3&insecure=1&mport=40071&sni=www.bing.com#韩国-Hysteria2
+vless://2a73f384-9c01-4eac-b957-3d73ae859b15@15.164.125.62:30735?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=NSxe4RZHl4oqvsqCbiFuhQJG1pfsXGymyoaggRmgw0c&sid=b0799b5a&type=tcp&headerType=none#2509 | KO_01 | reality
+hysteria2://2a73f384-9c01-4eac-b957-3d73ae859b15@15.164.125.62:57226?security=tls&alpn=h3&insecure=1&sni=www.bing.com#2509 | KO_01 | hysteria2
+tuic://2a73f384-9c01-4eac-b957-3d73ae859b15:2a73f384-9c01-4eac-b957-3d73ae859b15@15.164.125.62:64359?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1&allowInsecure=1#2509 | KO_01 | tuic
+vless://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k5C7N6ATRJGpJPzK5ca5v833gVvtpSG72tIuoZhFEH8&sid=51a3e57a&type=tcp&headerType=none#2503 | JP_01 | reality
+hysteria2://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48754?&alpn=h3&insecure=1&mport=48754&sni=www.bing.com#2503 | JP_01 | hysteria2
+tuic://7f951532-dd6c-463f-99f0-d80bf762d37c:7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#2503 | JP_01 | tuic
 `
 
 let urls = [];
