@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'py'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
+let mytoken = 'z'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
@@ -12,12 +12,12 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://2a73f384-9c01-4eac-b957-3d73ae859b15@15.164.125.62:30735?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=NSxe4RZHl4oqvsqCbiFuhQJG1pfsXGymyoaggRmgw0c&sid=b0799b5a&type=tcp&headerType=none#2509-KO_01-reality
-hysteria2://2a73f384-9c01-4eac-b957-3d73ae859b15@15.164.125.62:57226?security=tls&alpn=h3&insecure=1&sni=www.bing.com#2509-KO_01-hysteria2
-tuic://2a73f384-9c01-4eac-b957-3d73ae859b15:2a73f384-9c01-4eac-b957-3d73ae859b15@15.164.125.62:64359?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1&allowInsecure=1#2509-KO_01-tuic
-vless://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48752?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=k5C7N6ATRJGpJPzK5ca5v833gVvtpSG72tIuoZhFEH8&sid=51a3e57a&type=tcp&headerType=none#2503-JP_01-reality
-hysteria2://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48754?&alpn=h3&insecure=1&mport=48754&sni=www.bing.com#2503-JP_01-hysteria2
-tuic://7f951532-dd6c-463f-99f0-d80bf762d37c:7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48755?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#2503-JP_01-tuic
+vless://9ed51d7e-68e5-46d2-b430-043dc684cc66@18.136.162.247:49405?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=CdeL7T_hCIzrx0L6gstcHemHc_HJ6DQf3EGxGOkNAjI&sid=12820a7a&type=tcp&headerType=none#2512-SG_02-reality
+hysteria2://9ed51d7e-68e5-46d2-b430-043dc684cc66@18.136.162.247:27846?security=tls&alpn=h3&insecure=1&sni=www.bing.com#2512-SG_02-hysteria2
+tuic://9ed51d7e-68e5-46d2-b430-043dc684cc66:9ed51d7e-68e5-46d2-b430-043dc684cc66@18.136.162.247:40791?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1&allowInsecure=1#2512-SG_02-tuic
+vless://134b2705-2e27-4914-9346-888a87e4ed72@3.37.11.122:23814?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=m2FkSDOU6y_d2g1wwOQIEMx48jNAZ2VvO8e3V0qGehk&sid=629b1c35&type=tcp&headerType=none#2512-KO_05-reality
+hysteria2://134b2705-2e27-4914-9346-888a87e4ed72@3.37.11.122:41982?security=tls&alpn=h3&insecure=1&sni=www.bing.com#2512-KO_05-hysteria2
+tuic://134b2705-2e27-4914-9346-888a87e4ed72:134b2705-2e27-4914-9346-888a87e4ed72@3.37.11.122:30423?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1&allowInsecure=1#2512-KO_05-tuic
 `
 
 let urls = [];
