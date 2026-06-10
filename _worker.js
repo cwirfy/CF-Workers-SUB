@@ -18,7 +18,6 @@ tuic://9ed51d7e-68e5-46d2-b430-043dc684cc66:9ed51d7e-68e5-46d2-b430-043dc684cc66
 vless://798c9ead-f8af-4b04-96c1-e79cc2ce2cd5@43.203.93.133:56521?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=2lgxTCF6WAiQplFdbkw-LjQ_JbdBFF-B8tKX1dHUxiU&sid=490ca5c9&type=tcp&headerType=none#KO01_移动-联通_reality
 hysteria2://798c9ead-f8af-4b04-96c1-e79cc2ce2cd5@43.203.93.133:31186?security=tls&alpn=h3&insecure=1&sni=www.bing.com#KO01_移动-联通-电信_hy2
 tuic://798c9ead-f8af-4b04-96c1-e79cc2ce2cd5:798c9ead-f8af-4b04-96c1-e79cc2ce2cd5@43.203.93.133:59569?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1&allowInsecure=1#KO01_电信_tuic
-hysteria2://7f951532-dd6c-463f-99f0-d80bf762d37c@54.92.80.253:48754?&alpn=h3&insecure=1&mport=48754&sni=www.bing.com#JP03_移动-联通-电信_hy2
 `
 
 let urls = [];
